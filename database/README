@@ -1,0 +1,3 @@
+Executar server API
+
+json-server --watch database/db.json

@@ -1,0 +1,80 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Todo List 3.0"
+    },
+    {
+      "id": 2,
+      "nome": "Vue com API 2.0"
+    },
+    {
+      "id": 3,
+      "nome": "Business Schedule 1.0"
+    },
+    {
+      "nome": "Vue with Pinia",
+      "id": 4
+    },
+    {
+      "nome": "Circuito LigaMagic vem aí",
+      "id": 5
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "descricao": "Configuração no ambiente",
+      "duracaoEmSegundos": 120,
+      "projeto": {
+        "id": 1,
+        "nome": "Todo List 2.0"
+      }
+    },
+    {
+      "duracaoEmSegundos": 3,
+      "descricao": "Refatoração do vuex",
+      "projeto": {
+        "id": 1,
+        "nome": "Todo List 2.0"
+      },
+      "id": 2
+    },
+    {
+      "duracaoEmSegundos": 4,
+      "descricao": "Estudando padrões de projeto hoje!",
+      "projeto": {
+        "id": 1,
+        "nome": "Todo List 2.0"
+      },
+      "id": 3
+    },
+    {
+      "duracaoEmSegundos": 5,
+      "descricao": "Aula sobre Vue com Vuex",
+      "projeto": {
+        "id": 2,
+        "nome": "Vue com API 2.0"
+      },
+      "id": 4
+    },
+    {
+      "duracaoEmSegundos": 16,
+      "descricao": "Estudando padrões de projetos aqui",
+      "projeto": {
+        "id": 4,
+        "nome": "Estundo padrões de projetos"
+      },
+      "id": 5
+    },
+    {
+      "duracaoEmSegundos": 5,
+      "descricao": "Implementação RestFul",
+      "projeto": {
+        "nome": "Circuito LigaMagic vem aí",
+        "id": 5
+      },
+      "id": 6
+    }
+  ]
+}

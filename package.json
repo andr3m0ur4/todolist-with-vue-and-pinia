@@ -1,0 +1,32 @@
+{
+  "name": "alura-tracker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "playwright test",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bulma": "^0.9.4",
+    "pinia": "^2.0.32",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "@playwright/test": "^1.31.1",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.4",
+    "vite": "^4.1.4"
+  }
+}
