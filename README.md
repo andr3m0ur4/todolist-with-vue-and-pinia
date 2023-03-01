@@ -1,6 +1,6 @@
-# alura-tracker
+# Todo List
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing with Vue 3 in Vite, using Pinia.
 
 ## Recommended IDE Setup
 
